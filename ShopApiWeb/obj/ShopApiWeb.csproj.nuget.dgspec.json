@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\ShopApiWeb\\shopApiWeb\\ShopApiWeb.csproj": {}
+    "C:\\Projetos\\ShopApiWeb\\ShopApiWeb\\ShopApiWeb.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\ShopApiWeb\\shopApiWeb\\ShopApiWeb.csproj": {
+    "C:\\Projetos\\ShopApiWeb\\ShopApiWeb\\ShopApiWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\ShopApiWeb\\shopApiWeb\\ShopApiWeb.csproj",
+        "projectUniqueName": "C:\\Projetos\\ShopApiWeb\\ShopApiWeb\\ShopApiWeb.csproj",
         "projectName": "ShopApiWeb",
-        "projectPath": "C:\\Projetos\\ShopApiWeb\\shopApiWeb\\ShopApiWeb.csproj",
+        "projectPath": "C:\\Projetos\\ShopApiWeb\\ShopApiWeb\\ShopApiWeb.csproj",
         "packagesPath": "C:\\Users\\Raphael Pereira\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\ShopApiWeb\\shopApiWeb\\obj\\",
+        "outputPath": "C:\\Projetos\\ShopApiWeb\\ShopApiWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raphael Pereira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.10, )"

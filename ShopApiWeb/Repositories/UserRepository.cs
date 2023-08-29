@@ -1,8 +1,6 @@
-using System.Collections.Generic;
-using System.Linq;
-using Shop.Models;
+using ShopApiWeb.Models;
 
-namespace ShopApiWeb.Repositories
+namespace ShopApiWeb.Repositories;
 
 public static class UserRepository
 {

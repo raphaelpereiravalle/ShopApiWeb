@@ -2,17 +2,17 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Shop.Models;
+using ShopApiWeb.Models;
 using Microsoft.IdentityModel.Tokens;
 
-namespace ShopApiWeb.Services
+namespace ShopApiWeb.Services;
 
-public static class TokenService
+public class TokenService
 {
-    public static string GenerateToken(User user)
+    public string GenerateToken(User user)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
-        var key = Encoding.ASCII.GetBytes(Settings.Secret);
+        var key = Encoding.ASCII.GetBytes(Configuration.Secret);
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(new Claim[]
